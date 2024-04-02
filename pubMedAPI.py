@@ -91,7 +91,7 @@ def dict_to_dataframe(article_list):
 Für mehrere Topics: Schleife
 RateLimit für Pubmed -> Max 10 calls pro sekunde
 topic = "COVID-19"
-api_key = "deda4be6413bd1ec55b3394d10d12fb47308" 
+api_key = "PubMed API Key" 
 articles = search_pubmed(topic, api_key)
 
 df = dict_to_dataframe(articles)
