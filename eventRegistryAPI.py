@@ -1,11 +1,10 @@
 # Event registry
-# Key 68c9166c-b4d5-47e1-8607-a8d9447808f9
 from eventregistry import *
 from datetime import datetime, timedelta
 import pandas as pd
 
 def get_News_EventRegistry(keywords):
-    er = EventRegistry(apiKey = "68c9166c-b4d5-47e1-8607-a8d9447808f9")
+    er = EventRegistry(apiKey = "Event Registry Key")
     
     now = datetime.now()
 
